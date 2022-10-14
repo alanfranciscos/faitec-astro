@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'planets';
+  src: url('./Fonts/Planets.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Games';
+  src: url('./Fonts/Games.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Games-italic';
+  src: url('./Fonts/Games-Italic.ttf') format('truetype');
+}
+
