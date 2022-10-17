@@ -1,8 +1,7 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,4 +14,11 @@ export const Container = styled.div`
     text-align: center;
     margin-top: 3rem;
   }
-`
+
+  /* @media screen and (min-width: 900px) {
+    height: max-content;
+    h1 {
+      font-size: 60px;
+    }
+  } */
+`;

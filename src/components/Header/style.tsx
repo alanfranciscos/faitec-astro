@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
@@ -8,21 +8,21 @@ export const Container = styled.div`
   background-color: ${({ theme }) => theme.colors.gray100};
   height: 6rem;
   position: fixed;
-`
+`;
 export const Logo = styled.p`
   font-family: "planets";
   font-size: 2.5rem;
-`
+`;
 
 export const Title = styled.p`
   font-family: "Games";
   font-size: 2.5rem;
-`
+`;
 export const TitleContainer = styled.h1`
   font-weight: 400;
   display: flex;
   margin-top: 0.3rem;
-`
+`;
 export const MenuIcon = styled.button`
   margin-right: 1rem;
   position: absolute;
@@ -34,16 +34,10 @@ export const MenuIcon = styled.button`
   }
   border: none;
   background: none;
-`
+`;
 export const SideBar = styled.div`
-  width: 360px;
-  height: 300px;
-  background-color: ${({ theme }) => theme.colors.gray100};
-  border-radius: 0px 0px 30px 30px;
-  margin: auto;
-  margin-top: 6rem;
-  z-index: 1 !important;
-`
+  display: none;
+`;
 
 export const MenuItem = styled.div`
   display: flex;
@@ -59,4 +53,4 @@ export const MenuItem = styled.div`
     font-weight: bold;
     font-size: 23px;
   }
-`
+`;

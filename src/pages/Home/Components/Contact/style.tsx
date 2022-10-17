@@ -1,8 +1,7 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,24 +27,4 @@ export const Container = styled.div`
   img {
     width: 18.75rem;
   }
-`
-
-// type ColumnContainerProps = {
-//   sidebarIsOpen?: boolean
-// }
-
-// export const ColumnContainer = styled.main<ColumnContainerProps>`
-//   width: ${({ sidebarIsOpen }) =>
-//     sidebarIsOpen ? 'calc(100% - 15.625rem)' : '100%'};
-//   height: 100%;
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: space-between;
-//   overflow-y: auto !important;
-//   flex-grow: 1;
-//   background-color: ${({theme}) => theme.colors.secondary};
-// `
-
-// export const Content = styled.div`
-//   padding: 1.5rem;
-// `
+`;

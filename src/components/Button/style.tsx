@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 export const Container = styled.button`
   width: 100%;
@@ -10,4 +10,4 @@ export const Container = styled.button`
   height: 1.5rem;
   border-radius: 5px;
   text-decoration: none;
-`
+`;
