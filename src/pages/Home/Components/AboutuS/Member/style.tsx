@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 export const Container = styled.div`
   margin-top: 1rem;
@@ -10,7 +10,11 @@ export const Container = styled.div`
   background-color: #ffffffff;
   display: flex;
   align-items: center;
-`
+
+  p {
+    margin-bottom: 10px;
+  }
+`;
 
 export const Image = styled.img`
   width: 80px;
@@ -18,14 +22,14 @@ export const Image = styled.img`
   border-radius: 50%;
   margin-right: 1rem;
   margin-left: 1rem;
-`
+`;
 
 export const ImageLink = styled.img`
   width: 40px;
   height: 40px;
   margin-right: 1rem;
   margin-left: 1rem;
-`
+`;
 
 export const Content = styled.div`
   h2 {
@@ -35,7 +39,7 @@ export const Content = styled.div`
     margin-top: 5px;
     margin-right: 10px;
   }
-`
+`;
 export const Links = styled.div`
   display: flex;
   justify-content: space-between;
@@ -43,4 +47,4 @@ export const Links = styled.div`
   a {
     margin-right: 10px;
   }
-`
+`;
